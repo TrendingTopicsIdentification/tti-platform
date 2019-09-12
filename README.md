@@ -1,2 +1,3 @@
-# tti-platform
-Trending Topics Identification Platform
+# Trending Topics Identification Platform
+
+The Trending Topics Identification Platform can be seen as a personal expert for the biomedical scientists. The scientists can setup the platform to gather information from a list of blogs, conferences, project abstracts from federal grants site etc. The platform will then gather information from these data sources in an automated fashion. It will keep track of new information, perform topic modeling to find important topics within these data sources. Keeping track of these topics it will be able to identify trending or emerging topics. The platform will notify these trends via email and also have a frontend dashboard that the biomedical scientists can view all the latest summary of topics and trends. The approach to build a Trending Topics Identification Platform system can be broken down into different components. Splitting the components into specific function will help design the product in a modular fashion. This will also help to test components independently and separate out technologies, so that they are not tightly coupled. 
