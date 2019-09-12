@@ -102,3 +102,28 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+.idea
+*.iml
+*.komodoproject
+
+.DS_Store
+scratch.txt
+/_test
+/secrets
+
+# These are files used by the Docker development image bind mount and should
+# not be committed
+/.cache
+/.bashrc
+/.bash_history
+/.psql_history
+/.python_history
+/.local
+/docker-volumes
+
+

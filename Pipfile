@@ -1,0 +1,30 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+mypy = "*"
+pytest = "*"
+pytest-asyncio = "*"
+pylama = "*"
+
+[packages]
+ujson = "*"
+python-multipart = "*"
+requests = "*"
+google-api-python-client = "*"
+google-cloud-storage = "*"
+aiohttp = "*"
+google-auth = "*"
+numpy = "==1.16.4"
+tensorflow = "==1.14"
+pandas = "==0.24.0"
+scikit-learn = "==0.21.3"
+opencv-python = "*"
+h5py = "==2.9.0"
+fluent-logger = "==0.9.3"
+selenium = "*"
+
+[requires]
+python_version = "3.6"
